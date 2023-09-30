@@ -1,0 +1,23 @@
+// Copyright (c) 2023 RFull Development
+// This source code is managed under the MIT license. See LICENSE in the project root.
+{
+	"name": "Python",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"PYTHON_VERSION": "3.10",
+			"INSTALL_PACKAGES": ""
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.isort",
+				"ms-python.vscode-pylance",
+				"GitHub.copilot",
+				"GitHub.vscode-pull-request-github"
+			]
+		}
+	}
+}
