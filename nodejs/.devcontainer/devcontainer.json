@@ -6,7 +6,7 @@
 		"dockerfile": "Dockerfile",
 		"args": {
 			"NODE_VERSION": "20",
-			"PACKAGES": "curl wget git"
+			"INSTALL_PACKAGES": ""
 		}
 	}
 }
