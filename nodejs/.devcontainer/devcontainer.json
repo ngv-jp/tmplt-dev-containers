@@ -1,0 +1,12 @@
+// Copyright (c) 2023 RFull Development
+// This source code is managed under the MIT license. See LICENSE in the project root.
+{
+	"name": "Node.js",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"NODE_VERSION": "20",
+			"PACKAGES": "curl wget git"
+		}
+	}
+}
